@@ -13,10 +13,8 @@ import java.util.Scanner;
  */
 public class HospitalSystem {
 
-    public static void main(String[] args) {
-        private static SystemLogic system = new SystemLogic();
-     private static Scanner input = new Scanner(System.in);
-    
+    private static SystemLogic system = new SystemLogic();
+    private static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         int choice;
         
@@ -278,7 +276,7 @@ public class HospitalSystem {
             } catch (NumberFormatException e) {
                 System.out.println("Please enter a valid number!");
             }
-        }
-    }
-    }
+      }
+   }
+}
 
